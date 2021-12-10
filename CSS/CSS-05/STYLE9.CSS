@@ -1,0 +1,274 @@
+body
+{
+    background-color: yellow;
+    text-align:center;
+    /* justify-content: center; */
+}
+p{
+    margin-left: 480px;
+    font-size: 25px;
+
+    
+}
+.container
+{
+    margin-top: 20px;
+    /* text-align:center; */
+    display:flex;
+}
+.box
+{
+    
+     margin-left: 20px;
+}
+.box1
+{
+    
+    background-color: rgb(47, 59, 2);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    animation-name: step-1;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.box0
+{
+    margin-left: 30px;
+}
+@keyframes step-1 {
+   40%
+   {
+       transform: skewX(70deg);
+   }
+   20%
+   {
+    transform: skewX(10deg);
+   }
+   40%
+   {
+       transform: skewX(-20deg);
+   }
+}
+.box2
+{
+    
+    background-color: rgb(45, 230, 8);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    animation-name: step-2;
+    
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(0.86, 0, 0.07, 1);
+    animation-iteration-count: infinite;
+
+}
+@keyframes step-2 {
+    30%
+    {
+        transform: skewY(40deg);
+    }
+    70%
+    {
+     transform: skewY(-40deg);
+    }
+ }
+ .box3
+ {
+     
+     background-color: rgb(138, 55, 113);
+     width: 90px;
+     height: 90px;
+     margin-top: 20px;
+     animation-name: step-3;
+     
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ 
+ }
+ @keyframes step-3 {
+     100%
+     {
+         transform: rotate(360deg);
+     }
+ }
+ .box4-1
+ {
+     /* margin-left: 500px; */
+     background-color: rgb(90, 47, 189);
+     width: 90px;
+     height: 90px;
+     margin-top: 20px;
+     animation-name:box4-1 ;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ 
+ }
+ @keyframes box4-1 {
+
+    50%
+    {
+        transform: scaleY(.5);
+        
+    }
+    50%
+    {
+        transform: scaleY(.5);
+        /* height: 25px; */
+    }
+    
+ }
+ .box4-2
+ {
+    margin-left: 50px;
+    background-color: rgb(18, 1, 77);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    animation-name:box4-2 ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+ }
+ @keyframes box4-2
+ {
+    50%
+    {
+        transform: scaleX(.5);
+        /* width: 90px; */
+    }
+    50%
+    {
+        transform: scaleX(.5);
+        /* width: 90px; */
+    }
+ }
+ .box4-3
+ {
+    margin-left: 40px;
+    background-color: rgb(148, 134, 201);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    animation-name:box4-3 ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+ }
+ @keyframes box4-3
+ {
+     50%
+     {
+        transform:rotate(95deg);
+     }
+     
+     50%
+     {
+        transform:rotate(95deg);
+     }
+ }
+ .container2
+ {
+    
+    text-align: center;
+     /* display:flex; */
+
+ }
+ .p1
+ {
+     margin-left: 600px;
+ }
+ .boxx
+ {
+    background-color: rgb(241, 75, 9);
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    display: inline-block;
+    
+ }
+ .boxx1
+ {
+    transition: width 1s;
+    transition-timing-function:ease-in-out;
+    
+   
+ }
+ .boxx1:hover
+  {
+       width:300px
+   
+ }
+ .boxx2
+ {
+    transition: width 2s,height 2s;
+    
+    transition-timing-function:ease-in-out;
+    
+   
+ }
+
+ .boxx2:hover
+ {
+     width: 250px;
+     height: 200px;
+ }
+ .boxx3
+ {
+    
+    transition: width 2s,height 2s;
+    
+    transition-timing-function:ease-in;
+   
+ }
+ .boxx3:hover
+ {
+     width: 250px;
+     /* height: 200px; */
+ }
+ .boxx4
+ {
+    transition: width 2s,height 2s;
+    
+    transition-timing-function:ease-in-out;
+ }
+ 
+ .boxx4:hover
+ {
+     width: 250px;
+     /* height: 200px; */
+ }
+ .boxx5
+ {
+    transition: width 2s,height 2s;
+    
+    transition-timing-function:linear;
+ }
+ 
+ .boxx5:hover
+ {
+     width: 250px;
+     /* height: 200px; */
+ }
+ .boxx6
+ {
+    transition: width 2s,height 2s;
+    
+    transition-timing-function:ease-out;
+ }
+ 
+ .boxx6:hover
+ {
+     width: 250px;
+     /* height: 200px; */
+ }
+ a{
+     font-size: 50px;
+ }
+ 
